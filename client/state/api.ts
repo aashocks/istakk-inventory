@@ -44,6 +44,12 @@ export interface ExpenseByCategorySummary {
     date: string;
 }
 
+export interface User {
+    userId: string;
+    name: string;
+    email: string;
+}
+
 
 export interface DashboardMetrics {
     popularProducts: Product[];
@@ -76,8 +82,12 @@ export const api = createApi({
                 body: newProduct
             }),
             invalidatesTags: ["Products"]
-        })
+        }),
+        getUsers: build.query<User[], void>({
+            query: () => "/users",
+            providesTags: ["Users"],
+        }),
     }),
 });
 
-export const { useGetDashboardMetricsQuery, useGetProductsQuery, useCreateProductMutation, } = api;
+export const { useGetDashboardMetricsQuery, useGetProductsQuery, useCreateProductMutation, useGetUsersQuery } = api;
