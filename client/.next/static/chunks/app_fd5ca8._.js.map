@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/allen/istakk-inventory/client/app/dashboard/page.tsx"],"sourcesContent":["\"use client\"\r\n\r\nconst Dashboard = () => {\r\n  return <div\r\n    className=\"grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:overflow-auto gap-10 pd-4 custom-grid-rows\">\r\n      <div className=\"row-span-3 xl:row-span-6 bg-gray-500\" />\r\n      <div className=\"row-span-3 xl:row-span-6 bg-gray-500\" />\r\n      <div className=\"row-span-2 xl:row-span-3 col-span-1 md:col-span-2 xl:col-span-1 bg-gray-500\" />\r\n      <div className=\"row-span-3 bg-gray-500\" />\r\n      <div className=\"row-span-1 xl:row-span-2 bg-gray-500\" />\r\n      <div className=\"row-span-1 xl:row-span-2 bg-gray-500\" />\r\n      <div className=\"row-span-1 xl:row-span-2 bg-gray-500\" />\r\n    </div>\r\n}\r\n\r\nexport default Dashboard"],"names":[],"mappings":";;;;AAAA;;AAEA,MAAM,YAAY;IAChB,qBAAO,6LAAC;QACN,WAAU;;0BACR,6LAAC;gBAAI,WAAU;;;;;;0BACf,6LAAC;gBAAI,WAAU;;;;;;0BACf,6LAAC;gBAAI,WAAU;;;;;;0BACf,6LAAC;gBAAI,WAAU;;;;;;0BACf,6LAAC;gBAAI,WAAU;;;;;;0BACf,6LAAC;gBAAI,WAAU;;;;;;0BACf,6LAAC;gBAAI,WAAU;;;;;;;;;;;;AAErB;KAXM;uCAaS"}},
+    {"offset": {"line": 80, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
