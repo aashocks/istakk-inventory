@@ -2,7 +2,7 @@
 
 import { useAppDispatch, useAppSelector } from '@/app/redux'
 import { setIsSidebarCollapsed } from '@/state'
-import { Archive, ChartLine, Clipboard, FileClockIcon, FileCog, Layout, LucideIcon, Menu } from 'lucide-react'
+import { Archive, ChartLine, Clipboard, FileClockIcon, FileCog, Layout, LucideIcon, Menu, SlidersHorizontal, User } from 'lucide-react'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react'
@@ -90,21 +90,21 @@ const Sidebar = () => {
       isCollapsed={isSidebarCollapsed} 
     />
     <SidebarLink 
-      href="/transaction history" 
-      icon={FileClockIcon} 
-      label="Transaction History" 
-      isCollapsed={isSidebarCollapsed} 
-    />
-    <SidebarLink 
-      href="/inventory records" 
+      href="/inventory" 
       icon={Archive} 
-      label="Inventory Records" 
+      label="Inventory" 
       isCollapsed={isSidebarCollapsed} 
     />
     <SidebarLink 
-      href="/inventory form" 
-      icon={FileCog} 
-      label="Inventory Form" 
+      href="/products" 
+      icon={User} 
+      label="Products" 
+      isCollapsed={isSidebarCollapsed} 
+    />
+    <SidebarLink 
+      href="/settings" 
+      icon={SlidersHorizontal} 
+      label="Settings" 
       isCollapsed={isSidebarCollapsed} 
     />
     <SidebarLink 
