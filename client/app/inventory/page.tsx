@@ -1,7 +1,7 @@
 "use client";
 
 import { useGetProductsQuery } from "@/state/api";
-import Header from "../(components)/Header";
+import Header from "@/app/(components)/Header";
 
 const columns: GridColDef[] = [
     { field: "productId", headerName: "ID", width: 90},
