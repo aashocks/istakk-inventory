@@ -47,7 +47,7 @@ const Settings = () => {
                             <td className="py-2 px-4">
                                 {setting.type === "toggle" ? (
                                     <label className="inline-flex relative items-center cursor-pointer">
-                                        <input 
+                                        <input
                                             type="checkbox" 
                                             className="sr-only peer" 
                                             checked={setting.value as boolean} 
